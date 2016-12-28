@@ -1,0 +1,84 @@
+h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #D45959; }
+
+h6 {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600; }
+
+p {
+  font-size: 15px;
+  text-align: center; }
+
+section.main-head {
+  margin-top: 30px; }
+  section.main-head h1 {
+    font-size: 28px;
+    line-height: 1.5;
+    color: #7796AA;
+    font-weight: 700;
+    letter-spacing: .02em;
+    font-style: italic; }
+
+.team_para {
+  width: 100%;
+  /*max-width: 600px;*/
+  text-align: left; }
+
+/*section.banner {
+  background-color: #1A262B;
+  padding: 30px;
+  padding-top: 19px;
+  color: #d45959; }*/
+
+.social_border {
+  border-left: 2px solid rgba(238, 238, 238, 0.22); }
+
+.about_detail_img {
+  height: 175px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 5px; }
+
+.about_team_img {
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+  border-radius: 5px; }
+
+@media only screen and (max-width: 500px) {
+  section.banner {
+    padding: 5px;
+    padding-top: 10px; }
+
+  section.main-head h1 {
+    font-size: 17px; } }
+.logo-small {
+  height: 41px;
+  margin-top: -5px; }
+
+.slicknav_menu {
+  display: none; }
+
+@media screen and (max-width: 650px) {
+  /* #menu is the original menu */
+  #menu {
+    display: none; }
+
+  .logo-big {
+    margin-left: -15px; }
+
+  .img_logo {
+    display: none; }
+
+  #navbar {
+    display: none; }
+
+  .slicknav_menu {
+    display: block; } }
+
+/*# sourceMappingURL=about.css.map */
